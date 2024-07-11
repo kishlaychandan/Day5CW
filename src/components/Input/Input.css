@@ -8,7 +8,8 @@
 .heading{
     animation: heading 4s linear infinite;
     font-weight: bold;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2.2rem;
 }
 @keyframes heading {
     0%{
@@ -29,8 +30,10 @@
 }
 .input .inputData{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     gap: 1rem;
-    justify-content: center;
+    justify-content: stat;
     align-items: center;
     padding: 1rem 1.5rem;
 }

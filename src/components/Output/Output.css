@@ -3,6 +3,9 @@
     gap: 0.6rem;
     font-size: 1.3rem;
     color:yellow;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     /* background-color: blue;  */
 }
 .output p{
